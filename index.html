@@ -11,9 +11,22 @@
 <body>
     <Header>
         <div class="title-container">
-            TIC TAC TOE JS
+            <h1>TIC TAC TOE JS</h1>
+            <div class="scores">
+                <p class="x-score">X: 0</p>
+                <p class="o-score">O: 0</p>
+            </div>
         </div>
     </Header>
+
+    <div class="player-prompt show">
+        <p>PVP OR PLAY AGAINST AN AI?</p>
+        <div class="buttons">
+            <button class="btn pvp-btn">PVP</button>
+            <button class="btn ai-btn">AI</button>
+        </div>
+    </div>
+
     <div class="board">
         <div class="cell" id="cell1"></div>
         <div class="cell" id="cell2"></div>
