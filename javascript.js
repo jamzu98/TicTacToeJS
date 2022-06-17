@@ -79,11 +79,11 @@ function endGame(draw) {
 
 function cellClicked() {
     // place mark on gameboard
-    if (this.innerHTML == '') {
+    if (this.innerHTML == '' && !hasWinner) {
         this.innerHTML = turnKeeper == 0 ? PLAYER1.mark : PLAYER2.mark;
         shouldContinue();
     } else {
-        alert('That cell is already taken!');
+        alert('L2P');
     }
 }
 
